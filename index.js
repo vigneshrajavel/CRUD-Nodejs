@@ -9,13 +9,13 @@ app.use(bodyparser.json());
 app.use(bodyparser.urlencoded({ extended: false }));
 
 app.use((req, res, next) => {
-  res.setHeader('Access-Control-Allow-Origin', '*');
+ /*  res.setHeader('Access-Control-Allow-Origin', '*');
 
   console.log("🚀 ~ file: index.js:13 ~ app.use ~ setHeader:", setHeader)
 
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
 
-  console.log("🚀 ~ file: index.js:15 ~ app.use ~ setmethod:", setHeader)
+  console.log("🚀 ~ file: index.js:15 ~ app.use ~ setmethod:", setHeader) */
 
   next();
 });
