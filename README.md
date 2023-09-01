@@ -1,10 +1,11 @@
 # NODEJS-CRUD-API
 
 # Technologies used
-
-Node.js
-Express
-Sequelize
-Postgres
-Docker
-Docker Compose
+<ul>
+<li>Node.js</li>
+<li>Express</li>
+<li>Sequelize</li>
+<li>Postgres</li>
+<li>Docker</li>
+<li>Docker Compose</li>
+</ul>
