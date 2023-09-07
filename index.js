@@ -41,6 +41,6 @@ sequelize
   .sync()
   .then(result => {
     console.log("Database connected");
-    app.listen(3000);
+    app.listen(3001);
   })
   .catch(err => console.log(err));
